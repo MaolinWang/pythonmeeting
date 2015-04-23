@@ -1,7 +1,7 @@
 import pandas as pd
 
 def problem22():
-    names = pd.read_csv('D:/software/ipython_notebook/names.txt',header=None, keep_default_na=False)
+    names = pd.read_csv('/home/lin/Downloads/pandas-cookbook/names.txt',header=None, keep_default_na=False)
     namesorted=names.iloc[0].order()
 
     namesscore=0
